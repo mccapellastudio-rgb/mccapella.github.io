@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    </head>
+<body>
+
+    <header>
+        <nav>
+            <h1>[Your Name/Logo]</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Hi, I'm **[Your Name]**! 👋</h2>
+            <p>I'm a **[Your Profession/Specialty, e.g., Web Developer, UX Designer, Photographer]** passionate about **[Your Passion]**.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is where you tell your story. Talk about your background, skills, and what drives you. Keep it concise and engaging!</p>
+        <div class="skills">
+            <h3>Key Skills:</h3>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (or another skill)</li>
+                <li>[Skill 3]</li>
+                <li>[Skill 4]</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="projects">
+        <h2>My Work</h2>
+
+        <article class="project">
+            <h3>Project Title 1</h3>
+            <p>A brief, exciting description of your first project, highlighting the problem you solved and the technologies you used.</p>
+            <a href="[Link to Live Demo]" target="_blank">Live Demo</a> | <a href="[Link to GitHub/Source Code]" target="_blank">Source Code</a>
+        </article>
+
+        <article class="project">
+            <h3>Project Title 2</h3>
+            <p>Description for your second project.</p>
+            <a href="[Link to Live Demo]" target="_blank">Live Demo</a> | <a href="[Link to GitHub/Source Code]" target="_blank">Source Code</a>
+        </article>
+
+        </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>I'm currently seeking new opportunities and challenges. Send me a message!</p>
+
+        <form action="[A service like Formspree or a backend script for form submissions]" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <p>Or connect with me on:</p>
+            <a href="[Your LinkedIn URL]" target="_blank">LinkedIn</a> |
+            <a href="[Your GitHub URL]" target="_blank">GitHub</a> |
+            <a href="mailto:your.email@example.com">Email</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
